@@ -1,0 +1,49 @@
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(15, 14, 23, 0.7), rgba(15, 14, 23, 0.7)), 
+  url('/public/images/Pampa-HONEY-2-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fffffe;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff8906;
+}
+
+.hero-subtitle {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #a7a9be;
+}
+
+.hero-section button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ff8906;
+  border: none;
+  color: #fffffe;
+}
+
+.hero-section button:hover {
+  background-color: #f25f4c;
+}

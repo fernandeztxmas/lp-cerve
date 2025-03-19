@@ -1,0 +1,28 @@
+/* Navbar */
+.navbar {
+  background: #0f0e17 !important;
+  padding: 10px 0;
+  transition: background 0.3s;
+}
+
+.navbar-brand {
+  
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fffffe !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fffffe !important;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff8906 !important;
+}
+
+.navbar-toggler {
+  border-color: #fffffe !important;
+}

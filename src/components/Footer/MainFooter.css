@@ -1,0 +1,22 @@
+/* Footer */
+footer {
+    background: #0f0e17;
+    color: #fffffe;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h5 {
+    color: #ff8906;
+}
+
+footer .social-icons svg {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons svg:hover {
+    transform: scale(1.2);
+    color: #e53170;
+}

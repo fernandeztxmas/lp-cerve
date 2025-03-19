@@ -1,0 +1,26 @@
+/* Contact Section */
+.contact-section {
+  background-color: #0f0e17;
+  padding: 60px 20px;
+  color: #fffffe;
+}
+
+.contact-section .form-control {
+  border-radius: 10px;
+  background-color: #a7a9be;
+  color: black;
+  border: none;
+}
+
+.contact-section .form-control::placeholder {
+  color: black;
+}
+
+.contact-section .btn-primary {
+  background-color: #ff8906;
+  border: none;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #e53170;
+}

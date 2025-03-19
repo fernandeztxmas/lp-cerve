@@ -1,0 +1,43 @@
+
+/* Beer Catalog */
+.beer-catalog-section {
+  background-color: #0f0e17;
+  padding: 60px 20px;
+  text-align: center;
+  color: #fffffe;
+}
+
+.beer-card {
+  background: #a7a9be;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.beer-card:hover {
+  transform: scale(1.05);
+}
+
+.beer-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.beer-name {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff8906;
+}
+
+.beer-description {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1rem;
+  color: black;
+  margin-top: 10px;
+}
