@@ -9,7 +9,7 @@ export const MainFooter = () => {
     <footer className="bg-dark text-light py-4">
       <Container>
         <Row>
-          <Col md={4} className="text-center">
+          <Col md={4} className="text-center" >
             <h5>Contacto</h5>
             <p>contacto@cervezaartesanal.com<br/>Tel: +54 11 1234-5678</p>
           </Col>
@@ -23,12 +23,12 @@ export const MainFooter = () => {
           </Col>
           <Col md={4} className="text-center">
             <h5>Ubicación</h5>
-            <p>Buenos Aires, Argentina</p>
+            <p>La Yungeré S.A.</p>
           </Col>
         </Row>
         <Row className="mt-3">
           <Col className="text-center">
-            <p className="mb-0">&copy; 2025 Cerveza PAMPA Brewers CO. Todos los derechos reservados</p>
+            <p className="mb-0">&copy; 2025 Cerveza PAMPA Brewing CO. Todos los derechos reservados</p>
           </Col>
         </Row>
       </Container>
