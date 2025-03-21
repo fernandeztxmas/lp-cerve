@@ -16,7 +16,7 @@
 }
 
 .hero-content {
-  max-width: 600px;
+  max-width: 650px;
   padding: 20px;
 }
 
@@ -41,7 +41,7 @@
   border-radius: 5px;
   background-color: #ff8906;
   border: none;
-  color: #fffffe;
+  color: #000000;
 }
 
 .hero-section button:hover {

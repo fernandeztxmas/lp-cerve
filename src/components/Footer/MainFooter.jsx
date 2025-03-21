@@ -28,7 +28,9 @@ export const MainFooter = () => {
         </Row>
         <Row className="mt-3">
           <Col className="text-center">
-            <p className="mb-0">&copy; 2025 Cerveza PAMPA Brewing CO. Todos los derechos reservados</p>
+          <p>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS. </p>
+            <p className="mb-0">&copy; 
+              2025 Cerveza PAMPA Brewing CO. Todos los derechos reservados.</p>
           </Col>
         </Row>
       </Container>

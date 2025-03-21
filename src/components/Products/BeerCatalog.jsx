@@ -6,9 +6,9 @@ const beers = [
   { id: 1, name: "PAMPA Honey", description: "Amarga y aromática", abv: "6.5%" },
   { id: 2, name: "PAMPA Nitro Cream Stout", description: "Negra y cremosa", abv: "5.8%" },
   { id: 3, name: "PAMPA Amber", description: "Suave y refrescante", abv: "4.5%" },
-  { id: 4, name: "PAMPA Golden", description: "Dorada y ligera", abv: "5.0%" },
+  { id: 4, name: "PAMPA Dorada", description: "Dorada y ligera", abv: "5.0%" },
   { id: 5, name: "PAMPA IPA", description: "Intensa y lupulada", abv: "7.0%" },
-  { id: 6, name: "PAMPA Lager", description: "Clásica y equilibrada", abv: "4.8%" },
+  { id: 6, name: "PAMPA Belgian", description: "Clásica y equilibrada", abv: "4.8%" },
 ];
 
 // Agrupar cervezas en lotes de 3

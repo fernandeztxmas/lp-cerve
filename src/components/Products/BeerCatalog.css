@@ -44,19 +44,21 @@
 /* Estilo base de los botones del carrusel */
 .carousel-control-prev, .carousel-control-next {
   position: absolute;
-  top: 50%;
+  top: 100%;
   transform: translateY(-50%);
   width: auto; /* Ajuste automático del ancho */
-  height: 60px; /* Ajusta el alto */
+  height: 20px; /* Ajusta el alto */
   z-index: 10; /* Asegura que las flechas estén por encima del contenido */
 }
 
 /* Posiciona las flechas fuera del carrusel */
 .carousel-control-prev {
+  top: 1%;
   left: -70px; /* Más a la izquierda */
 }
 
 .carousel-control-next {
+  top: 1%;
   right: -70px; /* Más a la derecha */
 }
 
@@ -78,7 +80,9 @@
 .carousel-control-next:hover .carousel-control-next-icon {
   background-color: rgba(255, 102, 0, 1); /* Color más intenso */
   transform: scale(1.1); /* Efecto de agrandamiento */
+  
 }
+
 
 /* Asegurar que las flechas sean visibles en cualquier fondo */
 .carousel-control-prev-icon::before, 
